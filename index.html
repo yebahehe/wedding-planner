@@ -1,67 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedding Planner</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Planner</title>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Brisbane Wedding Planning Timeline</h1>
-            <h3>Wedding Date: Mid-April 2025</h3>
-        </div>
-
-        <div class="alert">
-            <strong>Timeline Notice:</strong> This is an accelerated 5-month planning schedule. Some vendors may already be booked for April 2025. Consider flexibility with dates/venues and be prepared to make quick decisions.
-        </div>
-
-        <div class="priority-legend">
-            <div class="legend-item">
-                <div class="legend-color" style="background: #ff0000;"></div>
-                <span>High Priority</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background: #ffa500;"></div>
-                <span>Medium Priority</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background: #ffff00;"></div>
-                <span>Low Priority</span>
-            </div>
-        </div>
-
-        <div class="month-section">
-            <div class="month-header">
-                <h3>IMMEDIATE (November 2024)</h3>
-            </div>
-            <div class="month-content">
-                <div class="task high-priority">
-                    <input type="checkbox" class="checkbox">
-                    <div class="task-info">
-                        <div>Set budget and guest count</div>
-                        <div class="due-date">Due: November 15, 2024</div>
-                        <div><i class="fas fa-chart-bar"></i> Avg. Brisbane wedding budget: $35,000-45,000</div>
-                        <div class="urgent">URGENT: This is your foundation for all other decisions</div>
-                    </div>
-                </div>
-                <!-- Add more tasks following the same structure -->
-            </div>
-        </div>
-        
-        <!-- Add more month sections following the same structure -->
-        
-    </div>
-
-    <script>
-        document.querySelectorAll('.month-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const content = header.nextElementSibling;
-                content.style.display = content.style.display === 'none' ? 'block' : 'none';
-            });
-        });
-    </script>
+  <div id="root"></div>
 </body>
 </html>
